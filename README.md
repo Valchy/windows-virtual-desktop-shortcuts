@@ -12,10 +12,12 @@ download [autohotkey](https://www.autohotkey.com/) in order to run the script.
 Open the `main.ahk` file in your favourite code editor to make any shortcut changes.
 
 ## Step 3: Place the script in the startup folder
-If you want the script to run on windows startup please `copy+paste` the file inside  
-this directory: `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`
+If you want the script to run on windows startup please make a shortcut and add  
+the file inside this directory: `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`
 
 Pro tip: use `WIN+R` and paste the path from above to open the directory location.
+
+Also keep in mind that any further changes 
 
 ## Step 4: Enjoy
 Be blessed with easy virtual desktop switching :)

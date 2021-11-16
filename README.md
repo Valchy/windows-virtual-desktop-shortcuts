@@ -1,4 +1,4 @@
-# windows-virtual-desktop-shortcuts
+# windows-virtual-desktop-switcher
 A small project to fix my frustrations with Windows not having a specific shortcut for each virtual desktop.  
 
 With this script, you are able to switch between four different virtual desktops  

@@ -17,8 +17,6 @@ the file inside this directory: `%APPDATA%\Microsoft\Windows\Start Menu\Programs
 
 Pro tip: use `WIN+R` and paste the path from above to open the directory location.
 
-Also keep in mind that any further changes 
-
 ## Step 4: Enjoy
 Be blessed with easy virtual desktop switching :)
 

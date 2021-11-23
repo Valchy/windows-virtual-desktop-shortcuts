@@ -15,17 +15,16 @@ currentdesktop := 1
 
 
 ; List of all the NEW sexy hot keys
-; Right now it is alt+NUMBER[1-4]
+; Right now it is alt+NUMBER[1-3]
 !1::SwitchDesktop(1)
 !2::SwitchDesktop(2)
 !3::SwitchDesktop(3)
-!4::SwitchDesktop(4)
 
 ; Shows the number of virtual desktops and the selected desktop inside the program
 ; Use this to verify the configuration and fix possible issues
 !`::MsgBox Desktop Count = %desktopcount%`nCurrent Desktop = %currentdesktop%
 
-; Switching the virtual desktop based on the keys 1,2,3 or 4
+; Switching the virtual desktop based on the keys 1,2 or 3
 SwitchDesktop(desktop) {
     global desktopcount
     global currentdesktop
@@ -40,10 +39,12 @@ SwitchDesktop(desktop) {
         desktopdiff *= -1
         Loop %desktopdiff% {
             Send ^#{Left}
+            Sleep, 200
         }   
     } else if (desktopdiff > 0) {
         Loop %desktopdiff% {
             Send ^#{Right}
+            Sleep, 200
         }
     }
 

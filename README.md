@@ -1,8 +1,8 @@
 # windows-virtual-desktop-switcher
 A small project to fix my frustrations with Windows not having a specific shortcut for each virtual desktop.  
 
-With this script, you are able to switch between four different virtual desktops  
-in windows using the shortcut: `alt+NUMBER` where `NUMBER` is `1,2,3 or 4`.
+With this script, you are able to switch between three different virtual desktops  
+in windows using the shortcut: `alt+NUMBER` where `NUMBER` is `1,2 or 3`.
 
 ## Step 1: Install AutoHotkey
 This script uses the AutoHotkey windows library so, please  
@@ -27,5 +27,5 @@ program's state but trust me that's still better than clicking `WIN+(left|right)
 
 ### Any troubles?
 1. Open the `main.ahk` file and check the code
-2. Use the debugging `alt+` shortcut
+2. Use the debugging `alt+~` shortcut
 3. Read the AutoHotkey [documentation](https://www.autohotkey.com/docs/AutoHotkey.htm)
